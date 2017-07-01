@@ -1,0 +1,2 @@
+# cassandra_tables_major_compaction
+This document will allow us to perform major compaction on the tables of specific keyspaces that we can define. The script will use the in-built cassandra utility and perform major compaction for the tables mentioned in the script file. This script should be executed on all the nodes of cassandra cluster one by one. It will release the fragmented space and ultimately reduce the overall used size of the cassandra database. This can be considered as the regular maintanance activity.
